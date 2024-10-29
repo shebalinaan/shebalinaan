@@ -1,3 +1,8 @@
+# Бауманка учителям
+# Выполнила Шебалина Анастасия Николаевна Школа 1367
+
+## Построение графа для алгоритма сортировки
+
 ```mermaid
 flowchart TD
 A(["selection_sort(list)"])
@@ -14,6 +19,7 @@ A(["selection_sort(list)"])
     M-->C
     K--> |false|C
     C--> N["print(list)"]
+%% добавим цвета
 style Сортировка fill: yellow,stroke:orange;
 style Шебалина_Анастасия_1367 fill: plum,stroke:red;
 style A fill: pink,stroke:red,stroke-width:2px;
@@ -26,3 +32,4 @@ style B fill: khaki,stroke:brown,stroke-width:2px;
 style G fill: khaki,stroke:brown,stroke-width:2px;
 style Q fill: khaki,stroke:brown,stroke-width:2px;
 style M fill: khaki,stroke:brown,stroke-width:2px;
+%% Всё готово!
