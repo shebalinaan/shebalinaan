@@ -1,4 +1,25 @@
-git add .
-git commit -m "Добавлены демонстрации".
-git push origin assets
-![alt text](https://github.dev/shebalinaan/shebalinaan/blob/Graf/Shebalina_mermaid-diagram-2024-10-29-161210.svg)
+# Бауманка учителям
+
+## Построение графа для алгоритма сортировки
+
+```mermaid 
+flowchart LR
+  title[Алгоритмы +<br>Структуры данных<br> = Программы]
+
+    h1(["определение"])==> h2["переменные"];
+    h2 ==> h3("базовый<br>алгоритм");
+    h3 ==> h4{"структу-<br>рирование"};
+    h4 ==> h5[["рефакторинг"]];
+    h5 ==> h6(("результат"));
+    h6 ==> h7{{"верификация"}};
+    h7 ==> h1;
+    h4 --"модификация"--> h1;
+
+%% задаем раскраску 
+classDef cond fill:#bee,stroke:#aaa,stroke-width:1px; 
+classDef state fill:#9e8,stroke:#333,stroke-width:1px; 
+class h1,h3,h5,h7 state; 
+class h2,h4,h6,h8 cond; 
+style title fill:gold,stroke:#100,stroke-width:1px; 
+
+%% mermaid ver 9.1 в МосХаб
