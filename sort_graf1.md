@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
 A(["selection_sort(list)"])
     A --> B["len(list)"]
