@@ -26,4 +26,3 @@ style B fill: khaki,stroke:brown,stroke-width:2px;
 style G fill: khaki,stroke:brown,stroke-width:2px;
 style Q fill: khaki,stroke:brown,stroke-width:2px;
 style M fill: khaki,stroke:brown,stroke-width:2px;
-![alt text](https://github.dev/shebalinaan/shebalinaan/blob/Graf/Shebalina_mermaid-diagram-2024-10-29-161210.svg)
